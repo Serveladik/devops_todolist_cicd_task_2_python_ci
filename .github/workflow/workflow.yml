@@ -34,7 +34,6 @@ jobs:
 
       - name: Lint
         run: |
-          cd ..
           flake8 . --show-source --statistics --exit-zero
 
       - name: Check complexity
