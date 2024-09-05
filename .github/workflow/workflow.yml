@@ -38,7 +38,6 @@ jobs:
 
       - name: Check complexity
         run: |
-          cd ..
           flake8 . --statistics --max-complexity=10 --exit-zero
 
       - name: Run unit tests
